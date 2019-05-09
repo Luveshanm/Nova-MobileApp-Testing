@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- This includes the stylesheet for the InformationLayout -->
+    <ContentPage.Resources>
+        <StyleSheet Source="styles/InformationStyle.css" />
+    </ContentPage.Resources>
+
+    <!-- Burger Menu -->
+    <android.support.v7.widget.Toolbar  
+        android:id="@+id/toolbar"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:minHeight="?attr/actionBarSize"  
+        android:background="#33B86C"  
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"  
+        app:layout_scrollFlags="scroll|enterAlways" />
+
+    <android.support.v4.widget.DrawerLayout  
+        android:id="@+id/drawerLayout"  
+        android:layout_height="match_parent"  
+        android:fitsSystemWindows="true"  
+        android:layout_width="match_parent">   
+
+        <android.support.design.widget.NavigationView  
+            android:id="@+id/navigationView"  
+            android:layout_height="match_parent"  
+            android:layout_width="200dp"  
+            android:layout_gravity="start"  
+            android:fitsSystemWindows="true"  
+            app:menu="@menu/Menu" />  
+
+    </android.support.v4.widget.DrawerLayout>
+
+    <TextView
+        android:text="More Information"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <Button
+        android:text="Insects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnInsects" />
+    <Button
+        android:text="Diseases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDiseases" />
+
+</LinearLayout>

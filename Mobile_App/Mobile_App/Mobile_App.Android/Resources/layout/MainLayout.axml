@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Defines the layout for the entire screen-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- This includes the stylesheet for the MainLayout -->
+    <ContentPage.Resources>
+        <StyleSheet Source="styles/MainStyle.css" />
+    </ContentPage.Resources>
+
+    <!--Creates the android elements for the screen 
+        - You can do that in this file, or the designer. 
+        - It adds automatically    -->
+    
+    <TextView
+        android:text="WELCOME TO FABI MOBILE"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblSplash" />
+    <Button
+        android:text="LOGIN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSplashLogin" />
+</LinearLayout>

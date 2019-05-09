@@ -1,0 +1,59 @@
+@string/appbar_scrolling_view_behavior;C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App.Android\obj\Debug\81\lp\25\jl\res\layout\flyoutcontent.xml
+@string/appbar_scrolling_view_behavior;C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App.Android\obj\Debug\81\lp\25\jl\res\layout\rootlayout.xml
+@string/appbar_scrolling_view_behavior;C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App.Android\obj\Debug\81\lp\25\jl\res\layout\shellcontent.xml
+adaptive-icon;obj\Debug\81\res\mipmap-anydpi-v26\icon.xml
+adaptive-icon;obj\Debug\81\res\mipmap-anydpi-v26\icon_round.xml
+alpha;C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App.Android\obj\Debug\81\lp\25\jl\res\anim\enterfromleft.xml
+alpha;C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App.Android\obj\Debug\81\lp\25\jl\res\anim\exittoleft.xml
+android.support.design.widget.AppBarLayout;C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App.Android\obj\Debug\81\lp\25\jl\res\layout\flyoutcontent.xml
+android.support.design.widget.AppBarLayout;C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App.Android\obj\Debug\81\lp\25\jl\res\layout\rootlayout.xml
+android.support.design.widget.AppBarLayout;C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App.Android\obj\Debug\81\lp\25\jl\res\layout\shellcontent.xml
+android.support.design.widget.BottomNavigationView;C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App.Android\obj\Debug\81\lp\25\jl\res\layout\bottomtablayout.xml
+android.support.design.widget.CoordinatorLayout;C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App.Android\obj\Debug\81\lp\25\jl\res\layout\flyoutcontent.xml
+android.support.design.widget.CoordinatorLayout;C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App.Android\obj\Debug\81\lp\25\jl\res\layout\rootlayout.xml
+android.support.design.widget.CoordinatorLayout;C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App.Android\obj\Debug\81\lp\25\jl\res\layout\shellcontent.xml
+android.support.design.widget.NavigationView;obj\Debug\81\res\layout\aboutuslayout.xml
+android.support.design.widget.NavigationView;obj\Debug\81\res\layout\dashboardlayout.xml
+android.support.design.widget.TabLayout;C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App.Android\obj\Debug\81\lp\25\jl\res\layout\rootlayout.xml
+android.support.design.widget.TabLayout;obj\Debug\81\res\layout\tabbar.xml
+android.support.v4.widget.DrawerLayout;obj\Debug\81\res\layout\aboutuslayout.xml
+android.support.v4.widget.DrawerLayout;obj\Debug\81\res\layout\dashboardlayout.xml
+android.support.v4.widget.NestedScrollView;C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App.Android\obj\Debug\81\lp\25\jl\res\layout\rootlayout.xml
+android.support.v4.widget.NestedScrollView;C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App.Android\obj\Debug\81\lp\25\jl\res\layout\shellcontent.xml
+android.support.v7.widget.RecyclerView;C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App.Android\obj\Debug\81\lp\25\jl\res\layout\flyoutcontent.xml
+android.support.v7.widget.Toolbar;C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App.Android\obj\Debug\81\lp\25\jl\res\layout\rootlayout.xml
+android.support.v7.widget.Toolbar;C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App.Android\obj\Debug\81\lp\25\jl\res\layout\shellcontent.xml
+android.support.v7.widget.Toolbar;obj\Debug\81\res\layout\aboutuslayout.xml
+android.support.v7.widget.Toolbar;obj\Debug\81\res\layout\dashboardlayout.xml
+background;obj\Debug\81\res\mipmap-anydpi-v26\icon.xml
+background;obj\Debug\81\res\mipmap-anydpi-v26\icon_round.xml
+Button;obj\Debug\81\res\layout\mainlayout.xml
+color;obj\Debug\81\res\values\colors.xml
+ContentPage.Resources;obj\Debug\81\res\layout\aboutuslayout.xml
+ContentPage.Resources;obj\Debug\81\res\layout\mainlayout.xml
+foreground;obj\Debug\81\res\mipmap-anydpi-v26\icon.xml
+foreground;obj\Debug\81\res\mipmap-anydpi-v26\icon_round.xml
+FrameLayout;C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App.Android\obj\Debug\81\lp\25\jl\res\layout\bottomtablayout.xml
+item;obj\Debug\81\res\menu\menu.xml
+item;obj\Debug\81\res\values\styles.xml
+LinearLayout;C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App.Android\obj\Debug\81\lp\25\jl\res\layout\bottomtablayout.xml
+LinearLayout;obj\Debug\81\res\layout\aboutuslayout.xml
+LinearLayout;obj\Debug\81\res\layout\dashboardlayout.xml
+LinearLayout;obj\Debug\81\res\layout\mainlayout.xml
+menu;obj\Debug\81\res\menu\menu.xml
+resources;obj\Debug\81\res\values\colors.xml
+resources;obj\Debug\81\res\values\styles.xml
+set;C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App.Android\obj\Debug\81\lp\25\jl\res\anim\enterfromleft.xml
+set;C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App.Android\obj\Debug\81\lp\25\jl\res\anim\enterfromright.xml
+set;C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App.Android\obj\Debug\81\lp\25\jl\res\anim\exittoleft.xml
+set;C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App.Android\obj\Debug\81\lp\25\jl\res\anim\exittoright.xml
+style;obj\Debug\81\res\values\styles.xml
+StyleSheet;obj\Debug\81\res\layout\aboutuslayout.xml
+StyleSheet;obj\Debug\81\res\layout\mainlayout.xml
+TextView;obj\Debug\81\res\layout\aboutuslayout.xml
+TextView;obj\Debug\81\res\layout\dashboardlayout.xml
+TextView;obj\Debug\81\res\layout\mainlayout.xml
+translate;C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App.Android\obj\Debug\81\lp\25\jl\res\anim\enterfromleft.xml
+translate;C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App.Android\obj\Debug\81\lp\25\jl\res\anim\enterfromright.xml
+translate;C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App.Android\obj\Debug\81\lp\25\jl\res\anim\exittoleft.xml
+translate;C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App.Android\obj\Debug\81\lp\25\jl\res\anim\exittoright.xml

@@ -1,0 +1,12 @@
+C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App\bin\Debug\netstandard2.0\Mobile_App.deps.json
+C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App\bin\Debug\netstandard2.0\Mobile_App.dll
+C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App\bin\Debug\netstandard2.0\Mobile_App.pdb
+C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App\obj\Debug\netstandard2.0\Mobile_App.csprojAssemblyReference.cache
+C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App\obj\Debug\netstandard2.0\Mobile_App.csproj.CoreCompileInputs.cache
+C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App\obj\Debug\netstandard2.0\Mobile_App.AssemblyInfoInputs.cache
+C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App\obj\Debug\netstandard2.0\Mobile_App.AssemblyInfo.cs
+C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App\obj\Debug\netstandard2.0\Mobile_App.dll
+C:\Users\Emma Coetzer\Documents\University\Third Year\COS 301\Capstone Project\FABI-Mobile\FABI-Mobile\Mobile_App\Mobile_App\Mobile_App\obj\Debug\netstandard2.0\Mobile_App.pdb

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!-- This includes the stylesheet for the SubmitSampleLayout -->
+    <ContentPage.Resources>
+        <StyleSheet Source="styles/SubmitSampleStyle.css" />
+    </ContentPage.Resources>
+
+    <!-- Burger Menu -->
+    <android.support.v7.widget.Toolbar  
+        android:id="@+id/toolbar"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:minHeight="?attr/actionBarSize"  
+        android:background="#33B86C"  
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"  
+        app:layout_scrollFlags="scroll|enterAlways" />
+
+    <android.support.v4.widget.DrawerLayout  
+        android:id="@+id/drawerLayout"  
+        android:layout_height="match_parent"  
+        android:fitsSystemWindows="true"  
+        android:layout_width="match_parent">   
+
+        <android.support.design.widget.NavigationView  
+            android:id="@+id/navigationView"  
+            android:layout_height="match_parent"  
+            android:layout_width="200dp"  
+            android:layout_gravity="start"  
+            android:fitsSystemWindows="true"  
+            app:menu="@menu/Menu" />  
+
+    </android.support.v4.widget.DrawerLayout>
+
+    <TextView
+        android:text="Submit Sample"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint = "Tree Species Name"
+            android:id="@+id/txtTreeSpecies" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint = "Number of Samples"
+                android:id="@+id/txtNoSamples" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint = "Area/city/suburb"
+                android:id="@+id/txtArea" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint = "Street Address"
+                android:id="@+id/txtStreetAddress" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint = "Compartment Number"
+                android:id="@+id/txtCompartmentNo" />
+
+            <EditText
+                android:inputType="date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint = "Date of Sample Collection"
+                android:id="@+id/txtDateCollected" />
+
+            <TextView
+                android:text="Sample Type"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+
+            <CheckBox
+                    android:text="Soil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cbxSoil" />
+
+            <CheckBox
+                android:text="Twigs/Branches"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbxTwigs" />
+
+            <CheckBox
+                android:text="Media Plates"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbxMediaPlates" />
+
+            <CheckBox
+                android:text="Stems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbxStems" />
+
+            <CheckBox
+                android:text="Roots"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbxRoots" />
+
+            <CheckBox
+                android:text="Leaves/Needles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbxLeaves" />
+
+            <CheckBox
+                android:text="Seedlings/Cuttings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbxSeedings" />
+
+            <CheckBox
+                android:text="Water"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbxWater" />
+
+            <TextView
+                android:text="Symptoms"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+
+            <CheckBox
+                    android:text="Wilt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cbxWilt" />
+
+            <CheckBox
+                android:text="Stunting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbxStunting" />
+
+            <CheckBox
+                android:text="Leaf Spot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbxLeafSpot" />
+
+            <CheckBox
+                android:text="Root rot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbxRootRot" />
+
+            <CheckBox
+                android:text="Die-Back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbxDieBack" />
+
+            <CheckBox
+                android:text="Cankers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbxCankers" />
+
+            <CheckBox
+                android:text="Death"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbxDeath" />
+
+            <CheckBox
+                android:text="Wood borer damage/ holes/ tunnels/ frass (sawdust)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbxWood" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtOther" />
+
+            <TextView
+                android:text="Distribution"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+
+            <RadioGroup
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rdgpDistribution">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Localized (Single Plant)"
+                    android:id="@+id/rbtnLocalized" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Scattered Plants"
+                    android:id="@+id/rbtnScattered" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="General"
+                    android:id="@+id/rbtnGeneral" />
+            </RadioGroup>
+
+            <TextView
+                android:text="Weather and Planting Conditions"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint = "Percentage of Plants Affected"
+                android:id="@+id/txtPlantsAffected" />
+
+            <EditText
+                android:inputType="date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint = "Date Problem was First Noticed"
+                android:id="@+id/txtProblemNoticed" />
+
+            <EditText
+                android:inputType="date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint = "Date Plants were Planted"
+                android:id="@+id/txtPlantsPlanted" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint = "Unusual Weather Disturbances"
+                android:id="@+id/txtWeatherDisturbances" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint = "Weather Conditions prior to Symptom Development"
+                android:id="@+id/txtWeatherConditionsPrior" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint = "Other Species within the environment that display Similar Symtpms"
+                android:id="@+id/txtOthersAffected" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint = "Any Additional Information"
+                android:id="@+id/txtAdditionalInfo" />
+
+            <TextView
+                android:text="Landowner Permission"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+
+            <CheckBox
+                android:text="Permission Granted"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbxLandownerPermission" />
+        <LinearLayout/>
+    </ScrollView>
+
+    <Button
+        android:text="SUBMIT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSubmitSample" />
+
+</LinearLayout>

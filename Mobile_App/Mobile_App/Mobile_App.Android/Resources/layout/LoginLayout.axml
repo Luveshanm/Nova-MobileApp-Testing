@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- This includes the stylesheet for the LoginLayout -->
+    <ContentPage.Resources>
+        <StyleSheet Source="styles/LoginStyle.css" />
+    </ContentPage.Resources>
+
+    <!-- Burger Menu -->
+    <android.support.v7.widget.Toolbar  
+        android:id="@+id/toolbar"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:minHeight="?attr/actionBarSize"  
+        android:background="#33B86C"  
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"  
+        app:layout_scrollFlags="scroll|enterAlways" />
+
+    <android.support.v4.widget.DrawerLayout  
+        android:id="@+id/drawerLayout"  
+        android:layout_height="match_parent"  
+        android:fitsSystemWindows="true"  
+        android:layout_width="match_parent">   
+
+        <android.support.design.widget.NavigationView  
+            android:id="@+id/navigationView"  
+            android:layout_height="match_parent"  
+            android:layout_width="200dp"  
+            android:layout_gravity="start"  
+            android:fitsSystemWindows="true"  
+            app:menu="@menu/Menu" />  
+
+    </android.support.v4.widget.DrawerLayout>
+
+    <!--Creates the android elements for the screen-->
+    <TextView
+        android:text="LOGIN"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblLogin" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/spinOrganizations" />
+    <EditText
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint = "Email"
+        android:id="@+id/txtLoginEmail" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint = "Password"
+        android:id="@+id/txtLoginPassword" />
+    <Button
+        android:text="LOGIN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLogin" />
+</LinearLayout>
